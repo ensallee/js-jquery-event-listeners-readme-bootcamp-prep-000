@@ -5,7 +5,7 @@ function getIt(){
   });
 }
 function frameIt(){
-  $('img').on('load', function(){
+  $('img').bind('load', function(){
     return $('img').bind('.tasty');
   });
 }
