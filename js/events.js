@@ -6,7 +6,7 @@ function getIt(){
 }
 function frameIt(){
   $('img').on('load', function(){
-    $('img').bind('.tasty');
+    return $('img').bind('.tasty');
   });
 }
 function pressIt(){
